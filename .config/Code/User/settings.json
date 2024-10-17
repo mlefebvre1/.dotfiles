@@ -1,0 +1,31 @@
+{
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontWeight": "bold",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "editor.minimap.showSlider": "always",
+    "explorer.confirmDelete": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "workbench.colorTheme": "Andromeda Bordered",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#e788ff7c", //Currently SELECTED text
+        "editor.selectionHighlightBackground": "#ff00005b", //Same content as selection
+        "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
+        "editor.findMatchHighlightBackground": "#ff7b00a1", //Other SEARCH MATCHES
+        "numberedBookmarks.lineBackground": "#007700"
+    },
+    "remote.SSH.useLocalServer": false,
+    "window.titleBarStyle": "custom",
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+        "--timeout=5m"
+    ],
+    "go.inlayHints.assignVariableTypes": true,
+    "go.inlayHints.rangeVariableTypes": true,
+    "go.inlayHints.parameterNames": true,
+    "editor.formatOnSave": true
+}
